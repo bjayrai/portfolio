@@ -18,7 +18,7 @@ const Navbar = ({ isVisible }: NavbarProps) => {
   const pathname = usePathname();
   const router = useRouter();
   const isHomePage = pathname === "/";
-  
+
   const menuItems = ["Services", "Projects", "Process", "Contact"];
 
   // Close mobile menu on route change
@@ -74,9 +74,9 @@ const Navbar = ({ isVisible }: NavbarProps) => {
 
   const handleNavigation = (item: string) => {
     setIsMobileMenuOpen(false);
-    
+
     const sectionId = item.toLowerCase();
-    
+
     if (isHomePage) {
       router.push(`/work#${sectionId}`);
     } else {
@@ -133,13 +133,13 @@ const Navbar = ({ isVisible }: NavbarProps) => {
           }}
         >
           <div className="w-full relative flex items-center h-10">
-            
+
             {/* Logo */}
             <div className="absolute left-0 transition-opacity duration-300">
               {!isHomePage && (
-                <button 
+                <button
                   onClick={scrollToTop}
-                  className="font-bold tracking-widest uppercase text-sm cursor-pointer transition-colors duration-500" 
+                  className="font-bold tracking-widest uppercase text-sm cursor-pointer transition-colors duration-500"
                   style={{ color: getTextColor() }}
                 >
                   BR
