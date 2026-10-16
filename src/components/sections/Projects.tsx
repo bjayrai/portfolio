@@ -5,44 +5,57 @@ import { useRef } from "react";
 
 const projects = [
   {
-  id: 1,
-  title: "Fleet Management Dashboard",
-  subtitle: "Web",
-  image: "/assets/projects-mockups/projects/fleetmanagement-dashboard-mock.png",
-  description: [
-    "A comprehensive fleet management and operations dashboard designed to streamline platform-wide administration and business processes.",
-    "The system enables centralized control of vendors, customers, fleet operations, transactions, user management, and other critical platform activities through a unified interface.",
-    "Built with scalability and performance in mind, the dashboard provides real-time insights, advanced data management, and role-based access controls for efficient decision-making.",
-    "Developed using Next.js for the frontend and integrated with Java Spring Boot REST APIs, ensuring a robust, secure, and maintainable enterprise-grade architecture.",
-  ],
-  tags: ["NextJS", "Redux", "RestAPI", "Java", "Springboot", "Postgres"],
-},
-{
-  id: 2,
-  title: "Truth X Dare",
-  subtitle: "Mobile App",
-  image: "/assets/projects-mockups/projects/truthxdare-app-mock.png",
-  description: [
-    "A fun, social party game app built with Flutter that brings the classic Truth or Dare experience to mobile.",
-    "Designed with playful UI and smooth animations, the app features themed decks, multiplayer support, and a sleek dark-mode interface.",
-    "Every interaction is crafted to keep the energy alive — from card flips to timer countdowns.",
-    "Built with scalable architecture using Riverpod pattern and Firebase for real-time multiplayer sessions.",
-  ],
-  tags: ["Flutter", "Riverpod", "Firebase"],
-},
-{
-  id: 3,
-  title: "Owl Learner",
-  subtitle: "Web & Mobile App",
-  image: "/assets/projects-mockups/projects/owllearner-mock.png",
-  description: [
-    "An educational learning platform designed to help students access high-quality study resources and exam preparation materials in one place.",
-    "The platform provides answers to previous examination questions, study notes, practice materials, and academic resources across multiple subjects and curricula.",
-    "Supporting learners from secondary education to higher studies, Owl Learner makes it easier to prepare for exams, reinforce concepts, and improve academic performance.",
-    "Built with a student-first approach, the platform delivers organized, searchable, and easily accessible learning content across both web and mobile devices.",
-  ],
-  tags: ["Wordpress", "Elementor"],
-},
+    id: 1,
+    title: "Daily Informiq Network",
+    subtitle: "Web",
+    image: "assets/projects-mockups/projects/newsportal-mock.jpg",
+    description: [
+      "A modern digital news platform designed to deliver the latest news, current affairs, and informative stories through a seamless and responsive user experience.",
+      "The platform enables readers to explore news across multiple categories, stay updated with breaking stories, and access national and international developments through an intuitive and user-friendly interface.",
+      "Built with performance, scalability, and accessibility in mind, Daily Informiq Network features a clean editorial layout, dynamic content management, optimized page loading, and a responsive design for seamless browsing across desktop and mobile devices.",
+      "Developed using Next.js and React for the frontend and Python for the backend, the platform integrates modern web technologies to deliver a fast, maintainable, and reliable digital news publishing experience.",
+    ],
+    tags: ["NextJS", "RestAPI", "Python", "MySQL"],
+  },
+  {
+    id: 2,
+    title: "Fleet Management Dashboard",
+    subtitle: "Web",
+    image: "/assets/projects-mockups/projects/fleetmanagement-dashboard-mock.png",
+    description: [
+      "A comprehensive fleet management and operations dashboard designed to streamline platform-wide administration and business processes.",
+      "The system enables centralized control of vendors, customers, fleet operations, transactions, user management, and other critical platform activities through a unified interface.",
+      "Built with scalability and performance in mind, the dashboard provides real-time insights, advanced data management, and role-based access controls for efficient decision-making.",
+      "Developed using Next.js for the frontend and integrated with Java Spring Boot REST APIs, ensuring a robust, secure, and maintainable enterprise-grade architecture.",
+    ],
+    tags: ["NextJS", "Redux", "RestAPI", "Java", "Springboot", "Postgres"],
+  },
+  {
+    id: 3,
+    title: "Truth X Dare",
+    subtitle: "Mobile App",
+    image: "/assets/projects-mockups/projects/truthxdare-app-mock.png",
+    description: [
+      "A fun, social party game app built with Flutter that brings the classic Truth or Dare experience to mobile.",
+      "Designed with playful UI and smooth animations, the app features themed decks, multiplayer support, and a sleek dark-mode interface.",
+      "Every interaction is crafted to keep the energy alive — from card flips to timer countdowns.",
+      "Built with scalable architecture using Riverpod pattern and Firebase for real-time multiplayer sessions.",
+    ],
+    tags: ["Flutter", "Riverpod", "Firebase"],
+  },
+  {
+    id: 4,
+    title: "Owl Learner",
+    subtitle: "Web & Mobile App",
+    image: "/assets/projects-mockups/projects/owllearner-mock.png",
+    description: [
+      "An educational learning platform designed to help students access high-quality study resources and exam preparation materials in one place.",
+      "The platform provides answers to previous examination questions, study notes, practice materials, and academic resources across multiple subjects and curricula.",
+      "Supporting learners from secondary education to higher studies, Owl Learner makes it easier to prepare for exams, reinforce concepts, and improve academic performance.",
+      "Built with a student-first approach, the platform delivers organized, searchable, and easily accessible learning content across both web and mobile devices.",
+    ],
+    tags: ["Wordpress", "Elementor"],
+  },
 ];
 
 const SCROLL_HEIGHT_PER_PROJECT = 7;

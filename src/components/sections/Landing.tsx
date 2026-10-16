@@ -101,7 +101,7 @@ const Landing = () => {
               transition={{ duration: 0.8, ease: "easeOut" }}
               className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-medium text-gray-900 leading-tight"
             >
-              <span className="inline">Frontend developer focused on </span>
+              <span className="inline">Full stack developer focused on </span>
               <span className="inline-flex items-center justify-center">
                 <AnimatePresence mode="wait">
                   <motion.span
